@@ -123,7 +123,7 @@ offline = false;
 antidel = false;
 welcom = false;
 antical = false
-readGc = true; 
+readGc = false; 
 readPc = false;
 autovn = true;
 multi = true
@@ -133,8 +133,8 @@ nopref = false
 numbernye = '0'
 autoketik = false;
 prefixStatus = true;
-targetpc = "917736622139"; 
-owner = "917736622139"; 
+targetpc = "6288980893843"; 
+owner = "6288980893843"; 
 fakeyoi = "Pepe Sir"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
@@ -144,7 +144,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@917736622139"; 
+nomorowner1 = "@6288980893843"; 
 fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n❑︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -1657,7 +1657,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 │      
 │
 │  ▢ *ᴅᴇᴠᴇʟᴏʟᴇʀ* : ᴘᴇᴘᴇ sɪʀ
-│  ▢ *ᴏᴡɴᴇʀ* :  ᴘᴇᴘᴇ sɪʀ
+│  ▢ *ᴏᴡɴᴇʀ* : Pamour Mahardhika
 │  ▢ *ᴠᴇʀsɪᴏɴ* : 1.0
 │  ▢ *ᴍᴏᴅᴇ* : ᴘᴜʙʟɪᴄ
 │  ▢ *ᴘʀᴇғɪx* : [# .]
@@ -1695,13 +1695,13 @@ case 'credit':
    dtod = '917736622139'
    dtod1 = '917736622139'
    dtod2 = '917736622139'
-   dtod3 = ''
+   dtod3 = '6288980893843'
    dtod4 ='0'
    var yez = `
 ╭───➤ 𝐀𝐃𝐌𝐈𝐍
 │✨ wa.me/${dtod.split('@')[0]}
 ╰───────────────
- © ᴄᴏᴅᴇᴅ ʙʏ ᴘᴇᴘᴇ sɪʀ
+ © ᴄᴏᴅᴇᴅ ʙʏ Pamour Mahardhika
  `
      credit = xeon.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 1000, "message": `${yez}`, "footerText": "hehe", "thumbnail": iye, "surface": 'CATALOG'}}, {quoted: mek})
             xeon.relayWAMessage(credit)
@@ -1870,7 +1870,7 @@ menu = `
 
 4. 𝙰𝙽𝚈 𝙿𝚁𝙾𝙱𝙻𝙰𝙼 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙾𝚄𝚁 𝙾𝚆𝙽𝙴𝚁
 `
-sendButMessage(from, menu, `𝙿𝙴𝙿𝙴 𝚂𝙸𝚁`, [
+sendButMessage(from, menu, Pamour Mahardhika`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2102,7 +2102,7 @@ case 'command':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
  listMsg = {
  buttonText: '𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨',
- footerText: '𝙿𝙴𝙿𝙴 𝚂𝙸𝚁',
+ footerText: 'Pamour',
  description: `Hi @${sender.split('@')[0]}, Please select the menu here`,
  sections: [
                      {
@@ -2257,7 +2257,7 @@ menu = `𝘎𝘳𝘰𝘶𝘱 𝘔𝘦𝘯𝘶︎︎
 
 ❑${prefix}kickarea
 `
-sendButMessage(from, menu, ` 𝙿𝙴𝙿𝙴 𝚂𝙸𝚁`, [
+sendButMessage(from, menu, ` Pamour Mahardhika`, [
           {
             buttonId: `command`,
             buttonText: {
